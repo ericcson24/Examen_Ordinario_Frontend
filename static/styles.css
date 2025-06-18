@@ -25,3 +25,42 @@ body {
         padding: 10px 0px 10px;
     }
 }
+
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    width: 150px;
+    text-align: center;
+}
+.card{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.grid{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.star {
+    cursor: pointer;
+    color: #888;
+    font-size: 1.5rem;
+}
