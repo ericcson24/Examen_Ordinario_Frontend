@@ -4,7 +4,7 @@ export async function getCharacters(): Promise<APICharacter[]> {
     const res = await fetch("https://hp-api.onrender.com/api/characters");
     if (!res.ok) throw new Error("error con la api");
     const data = await res.json();
-    return data.slice(0, 20).map((char: any) => ({
+    return data.slice(0, 50).map((char: any) => ({
         id: char.name,
         name: char.name,
         image: char.image,
